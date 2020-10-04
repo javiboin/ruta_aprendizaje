@@ -1,3 +1,12 @@
 h1{
     color: blue;
 }
+
+#cabecera {
+    color: cornsilk;
+    background: darkblue;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    box-shadow: 14px 28px 58px -8px rgba(0,0,0,0.75);
+}
