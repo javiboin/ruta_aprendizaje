@@ -14,3 +14,10 @@ h1{
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+    border-radius: 47px 47px 47px 47px;
+    -moz-border-radius: 47px 47px 47px 47px;
+    -webkit-border-radius: 47px 47px 47px 47px;
+    border: 2px double #2b8016;
+}
