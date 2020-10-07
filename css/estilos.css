@@ -25,14 +25,18 @@ p {
     border-radius: 47px 47px 47px 47px;
     -moz-border-radius: 47px 47px 47px 47px;
     -webkit-border-radius: 47px 47px 47px 47px;
-    border: 2px double #2b8016;
-    background: orange;
+    border: 2px double #020202;
+    background: rgb(255,136,0);
     padding: 0.4em;
     text-align: center;
 }
 footer{
     background: #777;
-    color: white;
+    color: black;
     text-align: center;
     padding: 0.5em;
+}
+h2{
+    padding: 0.5em;
+    text-align: center;
 }
