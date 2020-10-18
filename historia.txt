@@ -1,6 +1,4 @@
-Esto es una prueba para la clase de rebase
-
-Nada del contenido de aca puede o podra servir de algo
+Esto es una prueba para la clase de Cherry pick
 
 Este TXT es algo serio y esta hecho por el increible Javier Oyarzo
 
