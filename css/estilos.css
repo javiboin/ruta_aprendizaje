@@ -25,12 +25,12 @@ h2{
     text-align: center;
 }
 
-main h3 {
+main h2 {
     color: white;
     border-radius: 47px 47px 47px 47px;
     -moz-border-radius: 47px 47px 47px 47px;
     -webkit-border-radius: 47px 47px 47px 47px;
-    border: 2px double #020202;
+    border: 2px double #ece6e6;
     background: var(--main-color);
     padding: 0.4em;
     text-align: center;
@@ -61,7 +61,12 @@ footer{
     padding: 0.5em;
 }
 
-footer a{
+a{
     color: #dddddd;
     text-decoration: none;
+    transition: all .8s ease; 
+}
+
+a:hover {
+    color: #6d6a6a;
 }
