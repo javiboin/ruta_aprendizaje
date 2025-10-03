@@ -2,9 +2,15 @@
     --main-color: rgb(146, 27, 43);
     --font-color: rgb(27, 25, 25);
     --background-color: white;
-    --main-color1: rgb(146, 27, 43);
-    --font-color1: white;
-    --background-color1: rgb(27, 25, 25);
+    --a-color: rgb(182, 37, 37);
+    --a-hover-color: rgb(27, 25, 25);
+    
+    --main-color-night-v: rgb(146, 27, 43);
+    --font-color-night-v: white;
+    --background-color-night-v: rgb(27, 25, 25);
+    --a-color-night-v: #dddddd;
+    --a-hover-color-night-v: #6d6a6a;
+    
 }
 
 body{
@@ -31,8 +37,19 @@ h2{
     text-align: center;
 }
 
+a{
+    font-size: large;
+    color: var(--a-color);
+    text-decoration: none;
+    transition: all .8s ease; 
+}
+
+a:hover {
+    color: var(--a-hover-color);
+}
+
 main h2 {
-    color: var(--font-color);
+    color: #ece6e6;
     border-radius: 47px 47px 47px 47px;
     -moz-border-radius: 47px 47px 47px 47px;
     -webkit-border-radius: 47px 47px 47px 47px;
@@ -67,12 +84,6 @@ footer{
     padding: 0.5em;
 }
 
-a{
-    color: #dddddd;
-    text-decoration: none;
-    transition: all .8s ease; 
-}
-
-a:hover {
-    color: #6d6a6a;
+footer a{
+    color: white;
 }
